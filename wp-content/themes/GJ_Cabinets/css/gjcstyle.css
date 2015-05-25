@@ -1,0 +1,304 @@
+body {
+    background-image: url("../images/pattern2.jpg")#5e2525;
+    background-repeat: repeat;
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 16px;    
+}
+
+
+.nav-dropshadow {
+  box-shadow: 0px 0px 12px #333;
+}
+
+.contact-bar {
+    margin-top: 80px;
+    height: 40px;
+    padding:10px;
+    background-color: #EEE;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.feature-center {
+    text-align: center;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.padding {
+    padding: 30px;
+}
+.padding-less {
+    padding: 15px;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.contact-feature {
+  font-size: 22px;
+  padding:10px 10px 5px 10px;
+  color: #fff;
+  font-weight: 200;
+  margin-top: 10px;
+  background-color: #784343;
+  border-bottom: #333 4px solid;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.content-cap {
+  font-size: 22px;
+  padding:10px 10px 5px 10px;
+  height: 40px;
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 20px;
+  background-color: #784343;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.home-content {
+    background-color: #fff;
+    padding: 10px 50px;
+    border-bottom: #333 4px solid;
+}
+
+.page-heading {
+    font-size: 36px;
+    padding: 5px 10px 30px 10px;
+    font-weight: 300;
+}
+
+.footer {
+  background-color: #393939;
+  border-top: solid 5px #5F5F5F;
+  padding: 20px 0px 20px 0px;
+}
+
+.breadcrumb a {
+    color: #5E2525;
+}
+
+.testimonial-feature {
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #5;
+    margin-bottom: 10px;
+}
+
+.image-transparency {
+    opacity: 0.3;
+}
+
+.icon-background {
+    background-color: #ddd;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
+    color: #784343;
+}
+
+.testimonial-box {
+    background-color: #efefef;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px; 
+}
+
+.gallery-button {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    
+}
+
+.gallery-button a {
+    color: #5A5A5A;
+}
+
+.gallery-button:hover {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+ 
+  /* background-image: url("../images/pattern2.jpg");*/
+    background-repeat: repeat;
+    background-color:#5e2525;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+ list-style: none;
+
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class 
+.carousel {
+  height: 450px;
+  margin-bottom: 20px;
+  
+}*/
+
+.testimonial-carousel {
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 450px;
+  background-color: #777;
+}
+
+.testimonial-carousel .item {
+  height: 300px;
+  background-color: #5E2525;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  
+}
+
+.carousel .item1 {
+    background-image: url("../images/004.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.carousel .item2 {
+    background-image: url("../images/003.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.carousel .item3 {
+    background-image: url("../images/006.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+ /* .carousel {
+  height: 400px;
+  margin-bottom: 20px;
+  
+}*/
+
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+}
+
+.home-banner {
+  padding: 0px 15px;
+}
